@@ -1,0 +1,23 @@
+/* Шрифты: Raleway 700, Roboto 500, Roboto 900, Roboto 700, Roboto 400*/
+/* Основной цвет фона белый #FFFFFF*/
+/* Акцент #2196F3 */
+/* Цвет основного текста #757575 */
+/* вторичный цвет фона #212121; */
+/* Цвет футера и секции герой #2F303A - ? думаю это будет по-другому делаться */
+/* Цвет секции наша команда #F5F4FA - ? думаю это будет по-другому делаться */
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121; 
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;
+  }
+  
+  body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+
+   font-family: Roboto, sans-serif;
+   letter-spacing: 0.03em;
+
+   /* logo */
