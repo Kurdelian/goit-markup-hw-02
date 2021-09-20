@@ -19,5 +19,67 @@
 
    font-family: Roboto, sans-serif;
    letter-spacing: 0.03em;
+  }
 
-   /* logo */
+  a {
+    text-decoration: none;
+  }
+
+  .list {
+    list-style-type: none;
+  }
+
+   /* Logo */
+.logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 700;
+}
+
+/* Site nav */
+.site-nav {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+ letter-spacing: 0.02em;
+}
+
+.site-nav:hover, 
+.site-nav:focus {
+  color:var(--accent-color);
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+ font-size: 14px;
+ line-height: 1.1;
+ letter-spacing: 0.02em;
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+.holder {
+  background-color: #2F303A;
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+  font-weight: 900;
+ font-size: 44px;
+ line-height: 1.36;
+ text-align: center;
+ letter-spacing: 0.06em;
+ text-transform: uppercase;
+}
