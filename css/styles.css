@@ -70,7 +70,8 @@
   color: var(--accent-color);
 }
 
-.holder {
+.hero,
+.footer {
   background-color: #2F303A;
 }
 
@@ -83,3 +84,60 @@
  letter-spacing: 0.06em;
  text-transform: uppercase;
 }
+
+/* Button */
+.hero-button {
+color:var(--primary-white-color);
+background-color: var(--accent-color);
+width: 200px;
+height: 50px;
+}
+
+.example-button {
+color: var(--title-text-color);
+background-color: #F5F4FA;
+height: 38px;
+}
+
+.example-button:hover,
+.example-button:focus {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+.all-button {
+  width: 73px;
+}
+
+.web-side-button {
+  width: 128px;
+}
+
+.annexes-button {
+  width: 145px;
+}
+
+.design-button {
+  width: 103px;
+}
+
+.marketing-button {
+  width: 130px;
+}
+
+.benefits-title {
+ color: var(--title-text-color); 
+ font-weight: 700;
+ font-size: 14px;
+ line-height: 1.1;
+ text-transform: uppercase;
+}
+
+.about-us {
+color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.7;
+text-align: center;
+}
+
